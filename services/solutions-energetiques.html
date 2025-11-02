@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Énergétique - GESTECNAV</title>
+    <link rel="icon" href="../icon/favicon.png" type="image/png" sizes="512x512">
+    <link rel="apple-touch-icon" href="../icon/favicon.png" sizes="512x512">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+    (function(){
+        emailjs.init("c_xG5Mri9G_4N9jy_");
+    })();
+    </script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <i class="fas fa-anchor"></i>
+            </div>
+            <h2>GESTECNAV</h2>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Effets de particules -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation Language Switcher -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <div class="nav-container">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                    <i class="fas fa-anchor logo-icon"></i>
+                    <h1>GESTECNAV</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#accueil" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                    <li><a href="../index.html#services" data-fr="Services" data-en="Services">Services</a></li>
+                    <li><a href="../index.html#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="service-page">
+        <!-- Hero Section Améliorée -->
+        <div class="service-hero">
+            <div class="container">
+                <div class="hero-content-wrapper">
+                    <div class="hero-text">
+                        <a href="../index.html#services" class="back-btn" data-fr="Retour aux services" data-en="Back to services">
+                            <i class="fas fa-arrow-left"></i>
+                            <span data-fr="Retour aux services" data-en="Back to services">Retour aux services</span>
+                        </a>
+
+                        <div class="service-badge" data-fr="Innovation Verte" data-en="Green Innovation">Innovation Verte</div>
+                        
+                        <div class="service-icon-main">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        
+                        <h1 data-fr="Transition Énergétique" data-en="Energy Transition">Transition Énergétique</h1>
+                        <p class="hero-subtitle" data-fr="Accompagnement stratégique des armateurs dans la transition énergétique et la décarbonation" data-en="Strategic support for shipowners in energy transition and decarbonization">Accompagnement stratégique des armateurs dans la transition énergétique et la décarbonation</p>
+                        
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <div class="stat-value" data-count="50">0</div>
+                                <div class="stat-label" data-fr="% CO2 Réduit" data-en="% CO2 Reduced">% CO2 Réduit</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-value" data-count="30">0</div>
+                                <div class="stat-label" data-fr="% Économie Carburant" data-en="% Fuel Savings">% Économie Carburant</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-value" data-count="100">0</div>
+                                <div class="stat-label" data-fr="Projets Innovants" data-en="Innovative Projects">Projets Innovants</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+
+                        <img src="../vert.png" alt="Transition énergétique" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service-details">
+            <div class="container">
+                <!-- Section Introduction -->
+                <div class="service-intro">
+                    <div class="intro-content">
+                        <h2 data-fr="Vers une Navigation Décarbonée" data-en="Towards Decarbonized Navigation">Vers une Navigation Décarbonée</h2>
+                        <p data-fr="Accompagnement stratégique des armateurs dans la transition énergétique et la décarbonation. Notre expertise vous aide à réduire votre empreinte carbone, optimiser votre consommation énergétique et vous conformer aux nouvelles réglementations environnementales selon une approche intégrée et innovante." data-en="Strategic support for shipowners in energy transition and decarbonization. Our expertise helps you reduce your carbon footprint, optimize your energy consumption and comply with new environmental regulations through an integrated and innovative approach.">Accompagnement stratégique des armateurs dans la transition énergétique et la décarbonation. Notre expertise vous aide à réduire votre empreinte carbone, optimiser votre consommation énergétique et vous conformer aux nouvelles réglementations environnementales selon une approche intégrée et innovante.</p>
+                    </div>
+                </div>
+
+                <!-- Section Solutions Énergétiques -->
+                <div class="service-section">
+                    <div class="section-header">
+                        <h3 data-fr="Nos Solutions Énergétiques" data-en="Our Energy Solutions">Nos Solutions Énergétiques</h3>
+                        <p data-fr="Des technologies innovantes pour une navigation plus verte et plus efficace" data-en="Innovative technologies for greener and more efficient navigation">Des technologies innovantes pour une navigation plus verte et plus efficace</p>
+                    </div>
+                    
+                    <div class="intervention-grid">
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-ship"></i>
+                            </div>
+                            <h4 data-fr="Optimisation Énergétique" data-en="Energy Optimization">Optimisation Énergétique</h4>
+                            <p data-fr="Audits énergétiques et plans d'optimisation pour réduire la consommation de carburant" data-en="Energy audits and optimization plans to reduce fuel consumption">Audits énergétiques et plans d'optimisation pour réduire la consommation de carburant</p>
+                            <ul>
+                                <li data-fr="Audits énergétiques" data-en="Energy audits">Audits énergétiques</li>
+                                <li data-fr="Optimisation opérationnelle" data-en="Operational optimization">Optimisation opérationnelle</li>
+                                <li data-fr="Monitoring consommation" data-en="Consumption monitoring">Monitoring consommation</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-wind"></i>
+                            </div>
+                            <h4 data-fr="Énergies Alternatives" data-en="Alternative Energies">Énergies Alternatives</h4>
+                            <p data-fr="Études de faisabilité et intégration de solutions énergétiques durables" data-en="Feasibility studies and integration of sustainable energy solutions">Études de faisabilité et intégration de solutions énergétiques durables</p>
+                            <ul>
+                                <li data-fr="Propulsion GNL" data-en="LNG Propulsion">Propulsion GNL</li>
+                                <li data-fr="Systèmes hybrides" data-en="Hybrid systems">Systèmes hybrides</li>
+                                <li data-fr="Énergies renouvelables" data-en="Renewable energies">Énergies renouvelables</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h4 data-fr="Retrofits Éco-énergétiques" data-en="Eco-energy Retrofits">Retrofits Éco-énergétiques</h4>
+                            <p data-fr="Modernisation des navires avec technologies éco-énergétiques pour améliorer l'efficacité" data-en="Ship modernization with eco-energy technologies to improve efficiency">Modernisation des navires avec technologies éco-énergétiques pour améliorer l'efficacité</p>
+                            <ul>
+                                <li data-fr="Systèmes SCR" data-en="SCR systems">Systèmes SCR</li>
+                                <li data-fr="Optimisation coques" data-en="Hull optimization">Optimisation coques</li>
+                                <li data-fr="Propulseurs innovants" data-en="Innovative thrusters">Propulseurs innovants</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4 data-fr="Gestion Carbone" data-en="Carbon Management">Gestion Carbone</h4>
+                            <p data-fr="Stratégies de réduction des émissions et conformité aux réglementations CII/EEXI" data-en="Emission reduction strategies and CII/EEXI regulation compliance">Stratégies de réduction des émissions et conformité aux réglementations CII/EEXI</p>
+                            <ul>
+                                <li data-fr="Conformité CII/EEXI" data-en="CII/EEXI Compliance">Conformité CII/EEXI</li>
+                                <li data-fr="Stratégies décarbonation" data-en="Decarbonization strategies">Stratégies décarbonation</li>
+                                <li data-fr="Reporting environnemental" data-en="Environmental reporting">Reporting environnemental</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h4 data-fr="Efficacité Opérationnelle" data-en="Operational Efficiency">Efficacité Opérationnelle</h4>
+                            <p data-fr="Amélioration des performances opérationnelles par l'analyse des données et l'IA" data-en="Improvement of operational performance through data analysis and AI">Amélioration des performances opérationnelles par l'analyse des données et l'IA</p>
+                            <ul>
+                                <li data-fr="Analyse performance" data-en="Performance analysis">Analyse performance</li>
+                                <li data-fr="Solutions IA" data-en="AI solutions">Solutions IA</li>
+                                <li data-fr="Optimisation routes" data-en="Route optimization">Optimisation routes</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h4 data-fr="Certifications Vertes" data-en="Green Certifications">Certifications Vertes</h4>
+                            <p data-fr="Accompagnement pour l'obtention de certifications environnementales reconnues" data-en="Support for obtaining recognized environmental certifications">Accompagnement pour l'obtention de certifications environnementales reconnues</p>
+                            <ul>
+                                <li data-fr="Certification Green Marine" data-en="Green Marine Certification">Certification Green Marine</li>
+                                <li data-fr="Labels environnementaux" data-en="Environmental labels">Labels environnementaux</li>
+                                <li data-fr="Audits verts" data-en="Green audits">Audits verts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Technologies -->
+                <div class="service-section technologies-section">
+                    <div class="section-header">
+                        <h3 data-fr="Technologies Innovantes" data-en="Innovative Technologies">Technologies Innovantes</h3>
+                        <p data-fr="Nous intégrons les dernières technologies pour optimiser l'efficacité énergétique de votre flotte" data-en="We integrate the latest technologies to optimize the energy efficiency of your fleet">Nous intégrons les dernières technologies pour optimiser l'efficacité énergétique de votre flotte</p>
+                    </div>
+                    
+                    <div class="technologies-grid">
+                        <div class="technology-card">
+                            <div class="tech-icon">
+                                <i class="fas fa-gas-pump"></i>
+                            </div>
+                            <h4 data-fr="Propulsion GNL" data-en="LNG Propulsion">Propulsion GNL</h4>
+                            <p data-fr="Réduction jusqu'à 25% des émissions de CO2 et élimination des émissions de soufre" data-en="Up to 25% reduction in CO2 emissions and elimination of sulfur emissions">Réduction jusqu'à 25% des émissions de CO2 et élimination des émissions de soufre</p>
+                            <div class="tech-stats">
+                                <div class="tech-stat">
+                                    <span class="stat-value">-25%</span>
+                                    <span class="stat-label" data-fr="CO2" data-en="CO2">CO2</span>
+                                </div>
+                                <div class="tech-stat">
+                                    <span class="stat-value">0%</span>
+                                    <span class="stat-label" data-fr="SOx" data-en="SOx">SOx</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="technology-card">
+                            <div class="tech-icon">
+                                <i class="fas fa-solar-panel"></i>
+                            </div>
+                            <h4 data-fr="Énergies Renouvelables" data-en="Renewable Energies">Énergies Renouvelables</h4>
+                            <p data-fr="Intégration de panneaux solaires, éoliennes et systèmes de récupération d'énergie" data-en="Integration of solar panels, wind turbines and energy recovery systems">Intégration de panneaux solaires, éoliennes et systèmes de récupération d'énergie</p>
+                            <div class="tech-stats">
+                                <div class="tech-stat">
+                                    <span class="stat-value">-15%</span>
+                                    <span class="stat-label" data-fr="Carburant" data-en="Fuel">Carburant</span>
+                                </div>
+                                <div class="tech-stat">
+                                    <span class="stat-value">100%</span>
+                                    <span class="stat-label" data-fr="Vert" data-en="Green">Vert</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="technology-card">
+                            <div class="tech-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h4 data-fr="Systèmes Hybrides" data-en="Hybrid Systems">Systèmes Hybrides</h4>
+                            <p data-fr="Combinaison optimisée de moteurs thermiques et électriques pour une efficacité maximale" data-en="Optimized combination of thermal and electric engines for maximum efficiency">Combinaison optimisée de moteurs thermiques et électriques pour une efficacité maximale</p>
+                            <div class="tech-stats">
+                                <div class="tech-stat">
+                                    <span class="stat-value">-30%</span>
+                                    <span class="stat-label" data-fr="Émissions" data-en="Emissions">Émissions</span>
+                                </div>
+                                <div class="tech-stat">
+                                    <span class="stat-value">+20%</span>
+                                    <span class="stat-label" data-fr="Efficacité" data-en="Efficiency">Efficacité</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="technology-card">
+                            <div class="tech-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h4 data-fr="IA et Big Data" data-en="AI and Big Data">IA et Big Data</h4>
+                            <p data-fr="Analyse prédictive et optimisation en temps réel des performances énergétiques" data-en="Predictive analysis and real-time optimization of energy performance">Analyse prédictive et optimisation en temps réel des performances énergétiques</p>
+                            <div class="tech-stats">
+                                <div class="tech-stat">
+                                    <span class="stat-value">-12%</span>
+                                    <span class="stat-label" data-fr="Consommation" data-en="Consumption">Consommation</span>
+                                </div>
+                                <div class="tech-stat">
+                                    <span class="stat-value">24/7</span>
+                                    <span class="stat-label" data-fr="Monitoring" data-en="Monitoring">Monitoring</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Processus -->
+                <div class="service-section process-section">
+                    <div class="section-header">
+                        <h3 data-fr="Notre Approche Stratégique" data-en="Our Strategic Approach">Notre Approche Stratégique</h3>
+                        <p data-fr="Une méthodologie éprouvée pour votre transition énergétique réussie" data-en="A proven methodology for your successful energy transition">Une méthodologie éprouvée pour votre transition énergétique réussie</p>
+                    </div>
+                    
+                    <div class="process-timeline">
+                        <div class="process-step">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h4 data-fr="Diagnostic Énergétique" data-en="Energy Diagnosis">Diagnostic Énergétique</h4>
+                                <p data-fr="Analyse complète de la consommation et identification des opportunités d'optimisation" data-en="Complete consumption analysis and identification of optimization opportunities">Analyse complète de la consommation et identification des opportunités d'optimisation</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h4 data-fr="Stratégie Personnalisée" data-en="Customized Strategy">Stratégie Personnalisée</h4>
+                                <p data-fr="Élaboration d'une feuille de route de transition énergétique adaptée à votre flotte" data-en="Development of an energy transition roadmap tailored to your fleet">Élaboration d'une feuille de route de transition énergétique adaptée à votre flotte</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-road"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h4 data-fr="Implémentation" data-en="Implementation">Implémentation</h4>
+                                <p data-fr="Déploiement des solutions avec accompagnement technique et formation des équipes" data-en="Deployment of solutions with technical support and team training">Déploiement des solutions avec accompagnement technique et formation des équipes</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">04</div>
+                            <div class="step-content">
+                                <h4 data-fr="Monitoring & Optimisation" data-en="Monitoring & Optimization">Monitoring & Optimisation</h4>
+                                <p data-fr="Suivi continu des performances et ajustements pour maximiser les économies" data-en="Continuous performance monitoring and adjustments to maximize savings">Suivi continu des performances et ajustements pour maximiser les économies</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">05</div>
+                            <div class="step-content">
+                                <h4 data-fr="Innovation Continue" data-en="Continuous Innovation">Innovation Continue</h4>
+                                <p data-fr="Veille technologique et intégration des nouvelles solutions énergétiques" data-en="Technological monitoring and integration of new energy solutions">Veille technologique et intégration des nouvelles solutions énergétiques</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Avantages -->
+                <div class="service-section benefits-section">
+                    <div class="section-header">
+                        <h3 data-fr="Bénéfices Concrets" data-en="Concrete Benefits">Bénéfices Concrets</h3>
+                        <p data-fr="Les avantages mesurables de notre accompagnement en transition énergétique" data-en="The measurable benefits of our energy transition support">Les avantages mesurables de notre accompagnement en transition énergétique</p>
+                    </div>
+                    
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-euro-sign"></i>
+                            </div>
+                            <h4 data-fr="Économies Significatives" data-en="Significant Savings">Économies Significatives</h4>
+                            <p data-fr="Jusqu'à 30% de réduction des coûts de carburant et de maintenance" data-en="Up to 30% reduction in fuel and maintenance costs">Jusqu'à 30% de réduction des coûts de carburant et de maintenance</p>
+                            <div class="benefit-value">-30%</div>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4 data-fr="Impact Environnemental" data-en="Environmental Impact">Impact Environnemental</h4>
+                            <p data-fr="Réduction significative de l'empreinte carbone et conformité environnementale" data-en="Significant reduction of carbon footprint and environmental compliance">Réduction significative de l'empreinte carbone et conformité environnementale</p>
+                            <div class="benefit-value">-50% CO2</div>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h4 data-fr="Compétitivité" data-en="Competitiveness">Compétitivité</h4>
+                            <p data-fr="Avantage concurrentiel grâce à une flotte moderne et éco-responsable" data-en="Competitive advantage through a modern and eco-responsible fleet">Avantage concurrentiel grâce à une flotte moderne et éco-responsable</p>
+                            <div class="benefit-value">+40%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section CTA -->
+                <div class="service-cta-section">
+                    <div class="cta-content">
+                        <h3 data-fr="Prêt pour Votre Transition Énergétique ?" data-en="Ready for Your Energy Transition?">Prêt pour Votre Transition Énergétique ?</h3>
+                        <p data-fr="Contactez-nous pour un audit énergétique et découvrez comment réduire votre empreinte carbone tout en optimisant vos coûts" data-en="Contact us for a  energy audit and discover how to reduce your carbon footprint while optimizing your costs">Contactez-nous pour un audit énergétique  et découvrez comment réduire votre empreinte carbone tout en optimisant vos coûts</p>
+                        <div class="cta-buttons">
+                            <a href="../index.html#contact" class="btn btn-primary">
+                                <span data-fr="Audit Énergétique " data-en=" Energy Audit">Audit Énergétique </span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="../index.html#services" class="btn btn-outline">
+                                <span data-fr="Autres Services" data-en="Other Services">Autres Services</span>
+                                <i class="fas fa-compass"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GESTECNAV SUARL</h3>
+                    <p data-fr="Société d'ingénierie maritime spécialisée dans la gestion technique, la conformité réglementaire et la transition énergétique des navires." data-en="Maritime engineering company specializing in technical management, regulatory compliance and ship energy transition.">Société d'ingénierie maritime spécialisée dans la gestion technique, la conformité réglementaire et la transition énergétique des navires.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=100071133485603" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/goddi-mohamed-ali-5285b531/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/gestecnav_corp" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 data-fr="Contact" data-en="Contact">Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 42 avenue Abdelaziz Thalbi, Tunis</p>
+                    <p><i class="fas fa-envelope"></i> gestecnav@yahoo.fr</p>
+                    <p><i class="fas fa-phone"></i> +216 97 728 909</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© GESTECNAV 2023 - <span data-fr="Tous droits réservés" data-en="All rights reserved">Tous droits réservés</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+</html>

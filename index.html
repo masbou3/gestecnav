@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTECNAV - Innovation Serving Ships</title>
+    <link rel="icon" href="icon/favicon.png" type="image/png" sizes="512x512">
+    <link rel="apple-touch-icon" href="icon/favicon.png" sizes="512x512">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <meta name="google-site-verification" content="UKwycddyepNrTmLz2wnib9vMykamgSD7K-XWQYi9CbM" />
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+    (function(){
+        emailjs.init("c_xG5Mri9G_4N9jy_");
+    })();
+    </script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <i class="fas fa-anchor"></i>
+            </div>
+            <h2>GESTECNAV</h2>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Effets de particules -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation Language Switcher -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <div class="nav-container">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                    <i class="fas fa-anchor logo-icon"></i>
+                    <h1>GESTECNAV</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#accueil" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                    <li><a href="#apropos" data-fr="À propos" data-en="About">À propos</a></li>
+                    <li><a href="#services" data-fr="Services" data-en="Services">Services</a></li>
+                    <li><a href="#video" data-fr="Vidéo" data-en="Video">Vidéo</a></li>
+                    <li><a href="#statuts" data-fr="Statuts" data-en="Statutes">Statuts</a></li>
+                    <li><a href="#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Header/Hero Section -->
+    <header id="accueil">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge" data-fr="Innovation au service des navires" data-en="Innovation serving ships">Innovation au service des navires</div>
+                <h1 class="hero-title" data-fr="GESTION TECHNIQUE MARITIME & CONFORMITÉ RÉGLEMENTAIRE" data-en="MARITIME TECHNICAL MANAGEMENT & REGULATORY COMPLIANCE">GESTION TECHNIQUE MARITIME & CONFORMITÉ RÉGLEMENTAIRE</h1>
+                <p class="hero-subtitle" data-fr="Société d'ingénierie maritime spécialisée dans la maintenance, la supervision, la conformité réglementaire et la transition énergétique des navires." data-en="Maritime engineering company specializing in ship maintenance, supervision, regulatory compliance and energy transition.">Société d'ingénierie maritime spécialisée dans la maintenance, la supervision, la conformité réglementaire et la transition énergétique des navires.</p>
+                <div class="btn-container">
+                    <a href="#contact" class="btn" data-fr="Nous contacter" data-en="Contact Us">Nous contacter <i class="fas fa-arrow-right"></i></a>
+                    <a href="#services" class="btn btn-outline" data-fr="Découvrir nos services" data-en="Discover our services">Découvrir nos services <i class="fas fa-compass"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="apropos">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-fr="À propos de GESTECNAV" data-en="About GESTECNAV">À propos de GESTECNAV</h2>
+                <p data-fr="Votre partenaire en ingénierie maritime pour la gestion technique, la conformité réglementaire et la transition énergétique." data-en="Your maritime engineering partner for technical management, regulatory compliance and energy transition.">Votre partenaire en ingénierie maritime pour la gestion technique, la conformité réglementaire et la transition énergétique.</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-fr="Expertise Technique et Conformité Réglementaire" data-en="Technical Expertise and Regulatory Compliance">Expertise Technique et Conformité Réglementaire</h3>
+                    <p data-fr="GESTECNAV est une société d'ingénierie maritime et de gestion technique spécialisée dans la maintenance, la supervision, la conformité réglementaire et la transition énergétique des navires." data-en="GESTECNAV is a maritime engineering and technical management company specializing in ship maintenance, supervision, regulatory compliance and energy transition.">GESTECNAV est une société d'ingénierie maritime et de gestion technique spécialisée dans la maintenance, la supervision, la conformité réglementaire et la transition énergétique des navires.</p>
+                    <p data-fr="Nous accompagnons les armateurs, chantiers navals, organismes de classification et autorités maritimes dans le cadre de projets de construction, d'exploitation, de refit, de conversion ou d'expertise." data-en="We support shipowners, shipyards, classification societies and maritime authorities in construction, operation, refit, conversion or expertise projects.">Nous accompagnons les armateurs, chantiers navals, organismes de classification et autorités maritimes dans le cadre de projets de construction, d'exploitation, de refit, de conversion ou d'expertise.</p>
+                    <p data-fr="GESTECNAV agit selon une approche intégrée, conforme aux référentiels internationaux (SOLAS, MARPOL, ISM, ISPS, MLC, ISO 9001, ISO 14001, ISO 31000, ISO 45001) et aux exigences des sociétés de classification (BV, DNV, RINA, ABS, Lloyd's Register)." data-en="GESTECNAV operates with an integrated approach, compliant with international frameworks (SOLAS, MARPOL, ISM, ISPS, MLC, ISO 9001, ISO 14001, ISO 31000, ISO 45001) and classification society requirements (BV, DNV, RINA, ABS, Lloyd's Register).">GESTECNAV agit selon une approche intégrée, conforme aux référentiels internationaux (SOLAS, MARPOL, ISM, ISPS, MLC, ISO 9001, ISO 14001, ISO 31000, ISO 45001) et aux exigences des sociétés de classification (BV, DNV, RINA, ABS, Lloyd's Register).</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="50">0</div>
+                            <div class="stat-text" data-fr="Arrêts techniques" data-en="Technical stops">Arrêts techniques</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="34">0</div>
+                            <div class="stat-text" data-fr="Années d'expérience" data-en="Years of experience">Années d'expérience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="120">0</div>
+                            <div class="stat-text" data-fr="Audits réalisés" data-en="Audits completed">Audits réalisés</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <img src="navireenmer.png" alt="Navire en mer" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-fr="Nos Services Spécialisés" data-en="Our Specialized Services">Nos Services Spécialisés</h2>
+                <p data-fr="Des prestations complètes pour répondre à tous vos besoins en ingénierie maritime" data-en="Complete services for all your maritime engineering needs">Des prestations complètes pour répondre à tous vos besoins en ingénierie maritime</p>
+            </div>
+            <div class="services-grid">
+                <a href="services/gestion-technique.html" class="service-card">
+                    <div class="service-icon"><i class="fas fa-ship"></i></div>
+                    <h3 data-fr="Gestion Technique et Maintenance" data-en="Technical Management and Maintenance">Gestion Technique et Maintenance</h3>
+                    <p data-fr="Élaboration et suivi des plans de maintenance préventive et corrective selon les standards des sociétés de classification." data-en="Development and monitoring of preventive and corrective maintenance plans according to classification society standards.">Élaboration et suivi des plans de maintenance préventive et corrective selon les standards des sociétés de classification.</p>
+                    <div class="service-cta" data-fr="En savoir plus" data-en="Learn more">En savoir plus <i class="fas fa-arrow-right"></i></div>
+                </a>
+                <a href="services/expertise-conseil.html" class="service-card">
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3 data-fr="Expertise Maritime" data-en="Maritime Expertise">Expertise Maritime</h3>
+                    <p data-fr="Expertises techniques et réglementaires en cas d'événements en mer, évaluation des dommages et assistance aux assureurs." data-en="Technical and regulatory expertise for maritime incidents, damage assessment and assistance to insurers.">Expertises techniques et réglementaires en cas d'événements en mer, évaluation des dommages et assistance aux assureurs.</p>
+                    <div class="service-cta" data-fr="En savoir plus" data-en="Learn more">En savoir plus <i class="fas fa-arrow-right"></i></div>
+                </a>
+                <a href="services/solutions-energetiques.html" class="service-card">
+                    <div class="service-icon"><i class="fas fa-leaf"></i></div>
+                    <h3 data-fr="Transition Énergétique" data-en="Energy Transition">Transition Énergétique</h3>
+                    <p data-fr="Études de faisabilité énergétique, audits EEXI/CII et accompagnement dans les projets de modernisation écologique." data-en="Energy feasibility studies, EEXI/CII audits and support for green modernization projects.">Études de faisabilité énergétique, audits EEXI/CII et accompagnement dans les projets de modernisation écologique.</p>
+                    <div class="service-cta" data-fr="En savoir plus" data-en="Learn more">En savoir plus <i class="fas fa-arrow-right"></i></div>
+                </a>
+                <a href="services/conformite-reglementaire.html" class="service-card">
+                    <div class="service-icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h3 data-fr="Conformité Réglementaire" data-en="Regulatory Compliance">Conformité Réglementaire</h3>
+                    <p data-fr="Audits ISM/ISPS, veille réglementaire et accompagnement pour la conformité SOLAS, MARPOL, MLC et codes internationaux." data-en="ISM/ISPS audits, regulatory monitoring and compliance support for SOLAS, MARPOL, MLC and international codes.">Audits ISM/ISPS, veille réglementaire et accompagnement pour la conformité SOLAS, MARPOL, MLC et codes internationaux.</p>
+                    <div class="service-cta" data-fr="En savoir plus" data-en="Learn more">En savoir plus <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nouvelle Section Vidéo Double avec Animations Avancées -->
+    <section id="video" class="video-presentation">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-fr="Découvrez Notre Expertise en Vidéo" data-en="Discover Our Expertise in Video">Découvrez Notre Expertise en Vidéo</h2>
+                <p data-fr="Immersion totale dans notre univers maritime à travers des démonstrations vidéo captivantes" data-en="Total immersion in our maritime world through captivating video demonstrations">Immersion totale dans notre univers maritime à travers des démonstrations vidéo captivantes</p>
+            </div>
+            
+            <!-- Première Vidéo - Présentation Générale -->
+            <div class="video-section">
+                <div class="video-header">
+                    <h3 data-fr="Présentation GESTECNAV" data-en="GESTECNAV Presentation">Présentation GESTECNAV</h3>
+                    <p data-fr="Découvrez notre expertise et notre approche innovante en gestion maritime" data-en="Discover our expertise and innovative approach to maritime management">Découvrez notre expertise et notre approche innovante en gestion maritime</p>
+                </div>
+                
+                <div class="video-container-large">
+                    <div class="video-wrapper-large autoplay-video" data-video="videos/gestecnav-presentation.mp4">
+                        <video class="presentation-video-large" autoplay muted loop playsinline>
+                            <source src="videos/gestecnav-presentation.mp4" type="video/mp4">
+                            <source src="videos/gestecnav-presentation.webm" type="video/webm">
+                            <p data-fr="Votre navigateur ne supporte pas la lecture vidéo." data-en="Your browser does not support video playback.">
+                                Votre navigateur ne supporte pas la lecture vidéo.
+                            </p>
+                        </video>
+                        <div class="video-hover-effect"></div>
+                        <div class="video-badge">
+                            <i class="fas fa-play"></i>
+                            <span data-fr="Lecture automatique" data-en="Autoplay">Lecture automatique</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video-features-grid">
+                    <div class="video-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4 data-fr="Maintenance Prédictive" data-en="Predictive Maintenance">Maintenance Prédictive</h4>
+                        <p data-fr="Systèmes avancés de surveillance et d'analyse prédictive" data-en="Advanced monitoring and predictive analysis systems">Systèmes avancés de surveillance et d'analyse prédictive</p>
+                    </div>
+                    <div class="video-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 data-fr="Sécurité Intégrale" data-en="Complete Safety">Sécurité Intégrale</h4>
+                        <p data-fr="Conformité totale aux normes internationales de sécurité" data-en="Full compliance with international safety standards">Conformité totale aux normes internationales de sécurité</p>
+                    </div>
+                    <div class="video-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4 data-fr="Optimisation Performance" data-en="Performance Optimization">Optimisation Performance</h4>
+                        <p data-fr="Amélioration continue des performances opérationnelles" data-en="Continuous improvement of operational performance">Amélioration continue des performances opérationnelles</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Séparateur Animé -->
+            <div class="video-separator">
+                <div class="separator-line"></div>
+                <div class="separator-icon">
+                    <i class="fas fa-ship"></i>
+                </div>
+                <div class="separator-line"></div>
+            </div>
+
+            <!-- Deuxième Vidéo - Expertise Technique -->
+            <div class="video-section">
+                <div class="video-header">
+                    <h3 data-fr="Expertise Technique Détaillée" data-en="Detailed Technical Expertise">Expertise Technique Détaillée</h3>
+                    <p data-fr="Plongée au cœur de nos processus techniques et méthodologies avancées" data-en="Dive into our technical processes and advanced methodologies">Plongée au cœur de nos processus techniques et méthodologies avancées</p>
+                </div>
+                
+                <div class="video-container-large">
+                    <div class="video-wrapper-large autoplay-video" data-video="videos/gestecnav-technical.mp4">
+                        <video class="presentation-video-large" autoplay muted loop playsinline>
+                            <source src="videos/gestecnav-technical.mp4" type="video/mp4">
+                            <source src="videos/gestecnav-technical.webm" type="video/webm">
+                            <p data-fr="Votre navigateur ne supporte pas la lecture vidéo." data-en="Your browser does not support video playback.">
+                                Votre navigateur ne supporte pas la lecture vidéo.
+                            </p>
+                        </video>
+                        <div class="video-hover-effect"></div>
+                        <div class="video-badge">
+                            <i class="fas fa-play"></i>
+                            <span data-fr="Lecture automatique" data-en="Autoplay">Lecture automatique</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video-features-grid">
+                    <div class="video-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4 data-fr="Ingénierie Navale" data-en="Naval Engineering">Ingénierie Navale</h4>
+                        <p data-fr="Conception et optimisation des systèmes maritimes" data-en="Design and optimization of maritime systems">Conception et optimisation des systèmes maritimes</p>
+                    </div>
+                    <div class="video-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4 data-fr="Solutions Vertes" data-en="Green Solutions">Solutions Vertes</h4>
+                        <p data-fr="Technologies durables pour la navigation écologique" data-en="Sustainable technologies for green navigation">Technologies durables pour la navigation écologique</p>
+                    </div>
+                    <div class="video-feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <h4 data-fr="Audits Experts" data-en="Expert Audits">Audits Experts</h4>
+                        <p data-fr="Vérifications complètes et certifications" data-en="Comprehensive verifications and certifications">Vérifications complètes et certifications</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Final -->
+            <div class="video-cta-final">
+                <div class="cta-content">
+                    <h3 data-fr="Prêt à Transformer Votre Flotte ?" data-en="Ready to Transform Your Fleet?">Prêt à Transformer Votre Flotte ?</h3>
+                    <p data-fr="Rejoignez les armateurs qui nous font confiance pour l'excellence technique et l'innovation durable" data-en="Join the shipowners who trust us for technical excellence and sustainable innovation">Rejoignez les armateurs qui nous font confiance pour l'excellence technique et l'innovation durable</p>
+                    <div class="cta-stats">
+                        <div class="cta-stat">
+                            <div class="cta-number">50+</div>
+                            <div class="cta-label" data-fr="Projets Réussis" data-en="Successful Projects">Projets Réussis</div>
+                        </div>
+                        <div class="cta-stat">
+                            <div class="cta-number">34</div>
+                            <div class="cta-label" data-fr="Ans d'Expertise" data-en="Years of Expertise">Ans d'Expertise</div>
+                        </div>
+                        <div class="cta-stat">
+                            <div class="cta-number">120+</div>
+                            <div class="cta-label" data-fr="Audits" data-en="Audits">Audits</div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-large">
+                        <span data-fr="Démarrer Votre Projet" data-en="Start Your Project">Démarrer Votre Projet</span>
+                        <i class="fas fa-rocket"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statuts Section -->
+    <section id="statuts">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-fr="Statuts de la Société" data-en="Company Statutes">Statuts de la Société</h2>
+                <p data-fr="Informations légales et statutaires de GESTECNAV SUARL" data-en="Legal and statutory information of GESTECNAV SUARL">Informations légales et statutaires de GESTECNAV SUARL</p>
+            </div>
+            <div class="statuts-content">
+                <div class="statut-item">
+                    <h3><i class="fas fa-gavel"></i> <span data-fr="Forme Juridique" data-en="Legal Form">Forme Juridique</span></h3>
+                    <p data-fr="La société est une Unipersonnelle à Responsabilité Limitée (SUARL) dénommée : GESTECNAV SUARL" data-en="The company is a Single Member Limited Liability Company (SUARL) named: GESTECNAV SUARL">La société est une Unipersonnelle à Responsabilité Limitée (SUARL) dénommée : GESTECNAV SUARL</p>
+                </div>
+                <div class="statut-item">
+                    <h3><i class="fas fa-briefcase"></i> <span data-fr="Objet Social" data-en="Corporate Purpose">Objet Social</span></h3>
+                    <ul>
+                        <li data-fr="La gestion technique, la maintenance et la surveillance des navires" data-en="Technical management, maintenance and monitoring of ships">La gestion technique, la maintenance et la surveillance des navires</li>
+                        <li data-fr="L'assistance à la conception, étude et au suivi de construction navale" data-en="Assistance with design, study and monitoring of shipbuilding">L'assistance à la conception, étude et au suivi de construction navale</li>
+                        <li data-fr="L'évaluation énergétique et conversion vers des énergies propres" data-en="Energy assessment and conversion to clean energy">L'évaluation énergétique et conversion vers des énergies propres</li>
+                        <li data-fr="L'expertise maritime et conseil en solutions vertes" data-en="Maritime expertise and advice on green solutions">L'expertise maritime et conseil en solutions vertes</li>
+                        <li data-fr="L'accompagnement stratégique des armateurs dans la transition énergétique" data-en="Strategic support for shipowners in energy transition">L'accompagnement stratégique des armateurs dans la transition énergétique</li>
+                    </ul>
+                </div>
+                <div class="statut-item">
+                    <h3><i class="fas fa-coins"></i> <span data-fr="Capital Social" data-en="Share Capital">Capital Social</span></h3>
+                    <p data-fr="Capital social établi en Dinars Tunisiens" data-en="Share capital established in Tunisian Dinars">Capital social établi en Dinars Tunisiens</p>
+                </div>
+                <div class="statut-item">
+                    <h3><i class="fas fa-calendar-alt"></i> <span data-fr="Durée" data-en="Duration">Durée</span></h3>
+                    <p data-fr="Durée illimitée, sauf dissolution anticipée selon les dispositions légales." data-en="Unlimited duration, unless early dissolution according to legal provisions.">Durée illimitée, sauf dissolution anticipée selon les dispositions légales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-fr="Contactez-nous" data-en="Contact Us">Contactez-nous</h2>
+                <p data-fr="N'hésitez pas à nous contacter pour toute question ou demande de devis" data-en="Feel free to contact us for any questions or quote requests">N'hésitez pas à nous contacter pour toute question ou demande de devis</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-fr="Nos Coordonnées" data-en="Our Contact Information">Nos Coordonnées</h3>
+                    <p data-fr="N'hésitez pas à nous contacter par téléphone, email ou via nos réseaux sociaux." data-en="Feel free to contact us by phone, email or through our social networks.">N'hésitez pas à nous contacter par téléphone, email ou via nos réseaux sociaux.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> <strong data-fr="Adresse : " data-en="Address : ">Adresse : </strong> 42 avenue Abdelaziz Thalbi, Tunis</p>
+                        <p><i class="fas fa-envelope"></i> <strong>Email : </strong> gestecnav@yahoo.fr</p>
+                        <p><i class="fas fa-phone"></i> <strong data-fr="Téléphone : " data-en="Phone : ">Téléphone : </strong> +216 97 728 909</p>
+                        <p><i class="fab fa-whatsapp"></i> <strong>WhatsApp : </strong> +216 97 728 909</p>
+                        <p><i class="fas fa-university"></i> <strong data-fr="Banque : " data-en="Bank : ">Banque : </strong> BIAT - Agence El Manar I</p>
+                        <p><i class="fas fa-money-check-alt"></i> <strong>SWIFT : </strong> BIATTNTT</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=100071133485603" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/goddi-mohamed-ali-5285b531/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/gestecnav_corp" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/21697728909" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:medgoddi@gmail.com">
+                                <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Votre nom" data-fr-placeholder="Votre nom" data-en-placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Votre email" data-fr-placeholder="Votre email" data-en-placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Sujet" data-fr-placeholder="Sujet" data-en-placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Votre message" data-fr-placeholder="Votre message" data-en-placeholder="Your message" required></textarea>
+                        </div>
+                        <button type="submit">
+                            <span data-fr="Envoyer le message" data-en="Send Message">Envoyer le message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GESTECNAV SUARL</h3>
+                    <p data-fr="Société d'ingénierie maritime spécialisée dans la gestion technique, la conformité réglementaire et la transition énergétique des navires." data-en="Maritime engineering company specializing in technical management, regulatory compliance and ship energy transition.">Société d'ingénierie maritime spécialisée dans la gestion technique, la conformité réglementaire et la transition énergétique des navires.</p>
+                    <p data-fr="Approche intégrée conforme aux référentiels internationaux et aux exigences des sociétés de classification." data-en="Integrated approach compliant with international frameworks and classification society requirements.">Approche intégrée conforme aux référentiels internationaux et aux exigences des sociétés de classification.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=100071133485603" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/goddi-mohamed-ali-5285b531/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/gestecnav_corp" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 data-fr="Liens Rapides" data-en="Quick Links">Liens Rapides</h3>
+                    <a href="#accueil" data-fr="Accueil" data-en="Home">Accueil</a>
+                    <a href="#apropos" data-fr="À propos" data-en="About">À propos</a>
+                    <a href="#services" data-fr="Services" data-en="Services">Services</a>
+                    <a href="#video" data-fr="Vidéo" data-en="Video">Vidéo</a>
+                    <a href="#statuts" data-fr="Statuts" data-en="Statutes">Statuts</a>
+                    <a href="#contact" data-fr="Contact" data-en="Contact">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h3 data-fr="Coordonnées" data-en="Contact Information">Coordonnées</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 42 avenue Abdelaziz Thalbi, Tunis</p>
+                    <p><i class="fas fa-envelope"></i> gestecnav@yahoo.fr</p>
+                    <p><i class="fas fa-phone"></i> +216 97 728 909</p>
+                    <p><i class="fab fa-whatsapp"></i> +216 97 728 909</p>
+                    <p><i class="fas fa-university"></i> BIAT - Agence El Manar I</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© GESTECNAV 2023 - <span data-fr="Tous droits réservés" data-en="All rights reserved">Tous droits réservés</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

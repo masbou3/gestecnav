@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conformité Réglementaire - GESTECNAV</title>
+    <link rel="icon" href="../icon/favicon.png" type="image/png" sizes="512x512">
+    <link rel="apple-touch-icon" href="../icon/favicon.png" sizes="512x512">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+    (function(){
+        emailjs.init("c_xG5Mri9G_4N9jy_");
+    })();
+    </script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <i class="fas fa-anchor"></i>
+            </div>
+            <h2>GESTECNAV</h2>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Effets de particules -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation Language Switcher -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <div class="nav-container">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                    <i class="fas fa-anchor logo-icon"></i>
+                    <h1>GESTECNAV</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#accueil" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                    <li><a href="../index.html#services" data-fr="Services" data-en="Services">Services</a></li>
+                    <li><a href="../index.html#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="service-page">
+        <!-- Hero Section Améliorée -->
+        <div class="service-hero">
+            <div class="container">
+                <div class="hero-content-wrapper">
+                    <div class="hero-text">
+                        <a href="../index.html#services" class="back-btn" data-fr="Retour aux services" data-en="Back to services">
+                            <i class="fas fa-arrow-left"></i>
+                            <span data-fr="Retour aux services" data-en="Back to services">Retour aux services</span>
+                        </a>
+
+                        <div class="service-badge" data-fr="Conformité Totale" data-en="Total Compliance">Conformité Totale</div>
+                        
+                        <div class="service-icon-main">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        
+                        <h1 data-fr="Conformité Réglementaire Maritime" data-en="Maritime Regulatory Compliance">Conformité Réglementaire Maritime</h1>
+                        <p class="hero-subtitle" data-fr="Garantissez la conformité de vos opérations avec les réglementations internationales et les codes de sécurité" data-en="Ensure compliance of your operations with international regulations and safety codes">Garantissez la conformité de vos opérations avec les réglementations internationales et les codes de sécurité</p>
+                        
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <div class="stat-value" data-count="100">0</div>
+                                <div class="stat-label" data-fr="% Conformité" data-en="% Compliance">% Conformité</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-value" data-count="200">0</div>
+                                <div class="stat-label" data-fr="Audits Réussis" data-en="Successful Audits">Audits Réussis</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-value" data-count="50">0</div>
+                                <div class="stat-label" data-fr="Certifications" data-en="Certifications">Certifications</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-search"></i>
+                            <span data-fr="Audits" data-en="Audits">Audits</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-file-contract"></i>
+                            <span data-fr="Certifications" data-en="Certifications">Certifications</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-shield-alt"></i>
+                            <span data-fr="Sécurité" data-en="Safety">Sécurité</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Conformité réglementaire" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service-details">
+            <div class="container">
+                <!-- Section Introduction -->
+                <div class="service-intro">
+                    <div class="intro-content">
+                        <h2 data-fr="Conformité Totale aux Normes Internationales" data-en="Total Compliance with International Standards">Conformité Totale aux Normes Internationales</h2>
+                        <p data-fr="Garantissez la conformité de vos opérations avec les réglementations maritimes nationales et internationales. Notre expertise vous protège des sanctions et renforce votre réputation dans le secteur maritime selon une approche intégrée conforme aux référentiels internationaux." data-en="Ensure compliance of your operations with national and international maritime regulations. Our expertise protects you from penalties and strengthens your reputation in the maritime sector through an integrated approach compliant with international frameworks.">Garantissez la conformité de vos opérations avec les réglementations maritimes nationales et internationales. Notre expertise vous protège des sanctions et renforce votre réputation dans le secteur maritime selon une approche intégrée conforme aux référentiels internationaux.</p>
+                    </div>
+                </div>
+
+                <!-- Section Services de Conformité -->
+                <div class="service-section">
+                    <div class="section-header">
+                        <h3 data-fr="Nos Services de Conformité" data-en="Our Compliance Services">Nos Services de Conformité</h3>
+                        <p data-fr="Une gamme complète de services pour assurer votre conformité réglementaire" data-en="A complete range of services to ensure your regulatory compliance">Une gamme complète de services pour assurer votre conformité réglementaire</p>
+                    </div>
+                    
+                    <div class="intervention-grid">
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <h4 data-fr="Audits de Conformité" data-en="Compliance Audits">Audits de Conformité</h4>
+                            <p data-fr="Audits complets (ISM, ISPS, SOLAS, MARPOL, MLC) selon les standards internationaux" data-en="Comprehensive audits (ISM, ISPS, SOLAS, MARPOL, MLC) according to international standards">Audits complets (ISM, ISPS, SOLAS, MARPOL, MLC) selon les standards internationaux</p>
+                            <ul>
+                                <li data-fr="Audits ISM/ISPS" data-en="ISM/ISPS Audits">Audits ISM/ISPS</li>
+                                <li data-fr="Vérifications SOLAS" data-en="SOLAS Verifications">Vérifications SOLAS</li>
+                                <li data-fr="Contrôles MARPOL" data-en="MARPOL Controls">Contrôles MARPOL</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-clipboard-list"></i>
+                            </div>
+                            <h4 data-fr="Inspections PSC" data-en="PSC Inspections">Inspections PSC</h4>
+                            <p data-fr="Préparation et accompagnement aux inspections Port State Control avec garantie de réussite" data-en="Preparation and support for Port State Control inspections with success guarantee">Préparation et accompagnement aux inspections Port State Control avec garantie de réussite</p>
+                            <ul>
+                                <li data-fr="Préparation inspection" data-en="Inspection preparation">Préparation inspection</li>
+                                <li data-fr="Accompagnement sur site" data-en="On-site support">Accompagnement sur site</li>
+                                <li data-fr="Suivi post-inspection" data-en="Post-inspection follow-up">Suivi post-inspection</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-bell"></i>
+                            </div>
+                            <h4 data-fr="Veille Réglementaire" data-en="Regulatory Monitoring">Veille Réglementaire</h4>
+                            <p data-fr="Surveillance continue des évolutions OMI, UE et des réglementations nationales" data-en="Continuous monitoring of IMO, EU and national regulatory developments">Surveillance continue des évolutions OMI, UE et des réglementations nationales</p>
+                            <ul>
+                                <li data-fr="Alertes réglementaires" data-en="Regulatory alerts">Alertes réglementaires</li>
+                                <li data-fr="Analyses d'impact" data-en="Impact analysis">Analyses d'impact</li>
+                                <li data-fr="Mises à jour documentaires" data-en="Documentary updates">Mises à jour documentaires</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4 data-fr="Formations Spécialisées" data-en="Specialized Training">Formations Spécialisées</h4>
+                            <p data-fr="Programmes de formation adaptés aux codes internationaux et aux nouvelles réglementations" data-en="Training programs adapted to international codes and new regulations">Programmes de formation adaptés aux codes internationaux et aux nouvelles réglementations</p>
+                            <ul>
+                                <li data-fr="Formation ISM/ISPS" data-en="ISM/ISPS Training">Formation ISM/ISPS</li>
+                                <li data-fr="Sensibilisation MARPOL" data-en="MARPOL Awareness">Sensibilisation MARPOL</li>
+                                <li data-fr="Conformité MLC" data-en="MLC Compliance">Conformité MLC</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h4 data-fr="Gestion des Certificats" data-en="Certificate Management">Gestion des Certificats</h4>
+                            <p data-fr="Gestion centralisée des certificats et coordination avec les sociétés de classification" data-en="Centralized certificate management and coordination with classification societies">Gestion centralisée des certificats et coordination avec les sociétés de classification</p>
+                            <ul>
+                                <li data-fr="Renouvellements" data-en="Renewals">Renouvellements</li>
+                                <li data-fr="Coordination classe" data-en="Class coordination">Coordination classe</li>
+                                <li data-fr="Archivage sécurisé" data-en="Secure archiving">Archivage sécurisé</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4 data-fr="Conformité Environnementale" data-en="Environmental Compliance">Conformité Environnementale</h4>
+                            <p data-fr="Accompagnement pour la conformité environnementale (MARPOL, Ballast Water, EU MRV, ETS)" data-en="Support for environmental compliance (MARPOL, Ballast Water, EU MRV, ETS)">Accompagnement pour la conformité environnementale (MARPOL, Ballast Water, EU MRV, ETS)</p>
+                            <ul>
+                                <li data-fr="Conformité EU ETS" data-en="EU ETS Compliance">Conformité EU ETS</li>
+                                <li data-fr="Gestion ballast" data-en="Ballast management">Gestion ballast</li>
+                                <li data-fr="Réduction émissions" data-en="Emissions reduction">Réduction émissions</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                            <h4 data-fr="Conformité EUR-Lex" data-en="EUR-Lex Compliance">Conformité EUR-Lex</h4>
+                            <p data-fr="Veille et mise en conformité avec le droit européen maritime via la plateforme EUR-Lex" data-en="Monitoring and compliance with European maritime law through the EUR-Lex platform">Veille et mise en conformité avec le droit européen maritime via la plateforme EUR-Lex</p>
+                            <ul>
+                                <li data-fr="Veille réglementaire UE" data-en="EU Regulatory Monitoring">Veille réglementaire UE</li>
+                                <li data-fr="Transposition directives" data-en="Directives Transposition">Transposition directives</li>
+                                <li data-fr="Conformité acquis communautaire" data-en="Community Acquis Compliance">Conformité acquis communautaire</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Cadres Réglementaires -->
+                <div class="service-section compliance-section">
+                    <div class="section-header">
+                        <h3 data-fr="Cadres Réglementaires Couverts" data-en="Covered Regulatory Frameworks">Cadres Réglementaires Couverts</h3>
+                        <p data-fr="Nous maîtrisons l'ensemble des cadres réglementaires applicables au secteur maritime international" data-en="We master all regulatory frameworks applicable to the international maritime sector">Nous maîtrisons l'ensemble des cadres réglementaires applicables au secteur maritime international</p>
+                    </div>
+                    
+                    <div class="compliance-grid">
+                        <div class="compliance-card">
+                            <div class="compliance-header">
+                                <div class="compliance-icon">
+                                    <i class="fas fa-ship"></i>
+                                </div>
+                                <div class="compliance-title">
+                                    <h4 data-fr="Convention SOLAS" data-en="SOLAS Convention">Convention SOLAS</h4>
+                                    <span class="compliance-badge" data-fr="Sécurité" data-en="Safety">Sécurité</span>
+                                </div>
+                            </div>
+                            <p data-fr="Sécurité de la vie humaine en mer et prévention des accidents maritimes" data-en="Safety of life at sea and prevention of maritime accidents">Sécurité de la vie humaine en mer et prévention des accidents maritimes</p>
+                            <ul class="compliance-features">
+                                <li data-fr="Équipements de sécurité" data-en="Safety equipment">Équipements de sécurité</li>
+                                <li data-fr="Systèmes de navigation" data-en="Navigation systems">Systèmes de navigation</li>
+                                <li data-fr="Prévention incendie" data-en="Fire prevention">Prévention incendie</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="compliance-card">
+                            <div class="compliance-header">
+                                <div class="compliance-icon">
+                                    <i class="fas fa-water"></i>
+                                </div>
+                                <div class="compliance-title">
+                                    <h4 data-fr="Convention MARPOL" data-en="MARPOL Convention">Convention MARPOL</h4>
+                                    <span class="compliance-badge" data-fr="Environnement" data-en="Environment">Environnement</span>
+                                </div>
+                            </div>
+                            <p data-fr="Prévention de la pollution par les navires et protection de l'environnement marin" data-en="Prevention of pollution from ships and protection of marine environment">Prévention de la pollution par les navires et protection de l'environnement marin</p>
+                            <ul class="compliance-features">
+                                <li data-fr="Gestion des déchets" data-en="Waste management">Gestion des déchets</li>
+                                <li data-fr="Émissions atmosphériques" data-en="Atmospheric emissions">Émissions atmosphériques</li>
+                                <li data-fr="Eaux usées" data-en="Waste water">Eaux usées</li>
+                            </ul>
+                        </div>
+
+                        <div class="compliance-card">
+                            <div class="compliance-header">
+                                <div class="compliance-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="compliance-title">
+                                    <h4 data-fr="Convention MLC" data-en="MLC Convention">Convention MLC</h4>
+                                    <span class="compliance-badge" data-fr="Social" data-en="Social">Social</span>
+                                </div>
+                            </div>
+                            <p data-fr="Conditions de travail et de vie du personnel maritime à bord des navires" data-en="Working and living conditions of seafarers on board ships">Conditions de travail et de vie du personnel maritime à bord des navires</p>
+                            <ul class="compliance-features">
+                                <li data-fr="Conditions de vie" data-en="Living conditions">Conditions de vie</li>
+                                <li data-fr="Santé et sécurité" data-en="Health and safety">Santé et sécurité</li>
+                                <li data-fr="Contrats de travail" data-en="Employment contracts">Contrats de travail</li>
+                            </ul>
+                        </div>
+
+                        <div class="compliance-card">
+                            <div class="compliance-header">
+                                <div class="compliance-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="compliance-title">
+                                    <h4 data-fr="Codes ISM/ISPS" data-en="ISM/ISPS Codes">Codes ISM/ISPS</h4>
+                                    <span class="compliance-badge" data-fr="Sécurité/Sûreté" data-en="Safety/Security">Sécurité/Sûreté</span>
+                                </div>
+                            </div>
+                            <p data-fr="Gestion de la sécurité des navires et sécurité des navires et installations portuaires" data-en="Safety management of ships and security of ships and port facilities">Gestion de la sécurité des navires et sécurité des navires et installations portuaires</p>
+                            <ul class="compliance-features">
+                                <li data-fr="Plans de sécurité" data-en="Security plans">Plans de sécurité</li>
+                                <li data-fr="Audits internes" data-en="Internal audits">Audits internes</li>
+                                <li data-fr="Plans d'urgence" data-en="Emergency plans">Plans d'urgence</li>
+                            </ul>
+                        </div>
+
+                        <div class="compliance-card">
+                            <div class="compliance-header">
+                                <div class="compliance-icon">
+                                    <i class="fas fa-gavel"></i>
+                                </div>
+                                <div class="compliance-title">
+                                    <h4 data-fr="Règlementation EUR-Lex" data-en="EUR-Lex Regulation">Règlementation EUR-Lex</h4>
+                                    <span class="compliance-badge" data-fr="Union Européenne" data-en="European Union">Union Européenne</span>
+                                </div>
+                            </div>
+                            <p data-fr="Accès au droit de l'Union européenne et conformité avec l'acquis communautaire maritime" data-en="Access to European Union law and compliance with maritime community acquis">Accès au droit de l'Union européenne et conformité avec l'acquis communautaire maritime</p>
+                            <ul class="compliance-features">
+                                <li data-fr="Directives maritimes UE" data-en="EU Maritime Directives">Directives maritimes UE</li>
+                                <li data-fr="Règlements européens" data-en="European Regulations">Règlements européens</li>
+                                <li data-fr="Conformité normative" data-en="Regulatory Compliance">Conformité normative</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Tableau des normes -->
+                    <div class="standards-table">
+                        <h4 data-fr="Autres Normes et Règlements" data-en="Other Standards and Regulations">Autres Normes et Règlements</h4>
+                        <div class="standards-list">
+                            <div class="standard-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-fr="Règlement Ballast Water" data-en="Ballast Water Regulation">Règlement Ballast Water</span>
+                            </div>
+                            <div class="standard-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-fr="Directives Sulphur Cap 2020" data-en="Sulphur Cap 2020 Directives">Directives Sulphur Cap 2020</span>
+                            </div>
+                            <div class="standard-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-fr="Règlementation GHG" data-en="GHG Regulations">Règlementation GHG</span>
+                            </div>
+                            <div class="standard-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-fr="EU MRV" data-en="EU MRV">EU MRV</span>
+                            </div>
+                            <div class="standard-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-fr="EU ETS" data-en="EU ETS">EU ETS</span>
+                            </div>
+                            <div class="standard-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-fr="Normes CII/EEXI" data-en="CII/EEXI Standards">Normes CII/EEXI</span>
+                            </div>
+                            <div class="standard-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-fr="Directives EUR-Lex" data-en="EUR-Lex Directives">Directives EUR-Lex</span>
+                            </div>
+                            <div class="standard-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span data-fr="Règlements UE maritime" data-en="EU Maritime Regulations">Règlements UE maritime</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Processus -->
+                <div class="service-section process-section">
+                    <div class="section-header">
+                        <h3 data-fr="Notre Processus d'Accompagnement" data-en="Our Support Process">Notre Processus d'Accompagnement</h3>
+                        <p data-fr="Une méthodologie éprouvée pour garantir votre conformité réglementaire" data-en="A proven methodology to guarantee your regulatory compliance">Une méthodologie éprouvée pour garantir votre conformité réglementaire</p>
+                    </div>
+                    
+                    <div class="process-timeline">
+                        <div class="process-step">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h4 data-fr="Diagnostic Initial" data-en="Initial Diagnosis">Diagnostic Initial</h4>
+                                <p data-fr="Analyse complète de la conformité et identification des écarts réglementaires" data-en="Complete compliance analysis and identification of regulatory gaps">Analyse complète de la conformité et identification des écarts réglementaires</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h4 data-fr="Plan d'Action" data-en="Action Plan">Plan d'Action</h4>
+                                <p data-fr="Élaboration du plan d'action correctif personnalisé avec planning détaillé" data-en="Development of customized corrective action plan with detailed schedule">Élaboration du plan d'action correctif personnalisé avec planning détaillé</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-clipboard-list"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h4 data-fr="Mise en Œuvre" data-en="Implementation">Mise en Œuvre</h4>
+                                <p data-fr="Exécution des corrections et améliorations avec suivi en temps réel" data-en="Execution of corrections and improvements with real-time monitoring">Exécution des corrections et améliorations avec suivi en temps réel</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">04</div>
+                            <div class="step-content">
+                                <h4 data-fr="Vérification" data-en="Verification">Vérification</h4>
+                                <p data-fr="Audit de vérification et préparation aux inspections officielles" data-en="Verification audit and preparation for official inspections">Audit de vérification et préparation aux inspections officielles</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-check-double"></i>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">05</div>
+                            <div class="step-content">
+                                <h4 data-fr="Suivi Continu" data-en="Continuous Monitoring">Suivi Continu</h4>
+                                <p data-fr="Surveillance réglementaire permanente et mise à jour des processus" data-en="Permanent regulatory monitoring and process updates">Surveillance réglementaire permanente et mise à jour des processus</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Avantages -->
+                <div class="service-section benefits-section">
+                    <div class="section-header">
+                        <h3 data-fr="Avantages Clés" data-en="Key Benefits">Avantages Clés</h3>
+                        <p data-fr="Les bénéfices concrets de notre expertise en conformité réglementaire" data-en="The concrete benefits of our regulatory compliance expertise">Les bénéfices concrets de notre expertise en conformité réglementaire</p>
+                    </div>
+                    
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 data-fr="Sécurité Maximale" data-en="Maximum Safety">Sécurité Maximale</h4>
+                            <p data-fr="100% de conformité aux inspections PSC et des sociétés de classification" data-en="100% compliance with PSC and classification society inspections">100% de conformité aux inspections PSC et des sociétés de classification</p>
+                            <div class="benefit-value">100%</div>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-ban"></i>
+                            </div>
+                            <h4 data-fr="Risques Éliminés" data-en="Eliminated Risks">Risques Éliminés</h4>
+                            <p data-fr="Élimination des risques de sanctions, immobilisations et amendes réglementaires" data-en="Elimination of penalty, detention and regulatory fine risks">Élimination des risques de sanctions, immobilisations et amendes réglementaires</p>
+                            <div class="benefit-value">0</div>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4 data-fr="Performance Améliorée" data-en="Improved Performance">Performance Améliorée</h4>
+                            <p data-fr="Optimisation des processus internes et amélioration continue de la sécurité" data-en="Optimization of internal processes and continuous safety improvement">Optimisation des processus internes et amélioration continue de la sécurité</p>
+                            <div class="benefit-value">+40%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section CTA -->
+                <div class="service-cta-section">
+                    <div class="cta-content">
+                        <h3 data-fr="Prêt à Garantir Votre Conformité ?" data-en="Ready to Ensure Your Compliance?">Prêt à Garantir Votre Conformité ?</h3>
+                        <p data-fr="Contactez-nous pour un audit de conformité  et découvrez comment nous pouvons vous accompagner vers l'excellence réglementaire" data-en="Contact us for a  compliance audit and discover how we can support you towards regulatory excellence">Contactez-nous pour un audit de conformité  et découvrez comment nous pouvons vous accompagner vers l'excellence réglementaire</p>
+                        <div class="cta-buttons">
+                            <a href="../index.html#contact" class="btn btn-primary">
+                                <span data-fr="Audit de Conformité " data-en=" Compliance Audit">Audit de Conformité </span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="../index.html#services" class="btn btn-outline">
+                                <span data-fr="Autres Services" data-en="Other Services">Autres Services</span>
+                                <i class="fas fa-compass"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GESTECNAV SUARL</h3>
+                    <p data-fr="Société d'ingénierie maritime spécialisée dans la gestion technique, la conformité réglementaire et la transition énergétique des navires." data-en="Maritime engineering company specializing in technical management, regulatory compliance and ship energy transition.">Société d'ingénierie maritime spécialisée dans la gestion technique, la conformité réglementaire et la transition énergétique des navires.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=100071133485603" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/goddi-mohamed-ali-5285b531/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/gestecnav_corp" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 data-fr="Contact" data-en="Contact">Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 42 avenue Abdelaziz Thalbi, Tunis</p>
+                    <p><i class="fas fa-envelope"></i> gestecnav@yahoo.fr</p>
+                    <p><i class="fas fa-phone"></i> +216 97 728 909</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© GESTECNAV 2023 - <span data-fr="Tous droits réservés" data-en="All rights reserved">Tous droits réservés</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+</html>

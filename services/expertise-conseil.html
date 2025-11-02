@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expertise Maritime - GESTECNAV</title>
+    <link rel="icon" href="../icon/favicon.png" type="image/png" sizes="512x512">
+    <link rel="apple-touch-icon" href="../icon/favicon.png" sizes="512x512">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+    (function(){
+        emailjs.init("c_xG5Mri9G_4N9jy_");
+    })();
+    </script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <i class="fas fa-anchor"></i>
+            </div>
+            <h2>GESTECNAV</h2>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Effets de particules -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation Language Switcher -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <div class="nav-container">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                    <i class="fas fa-anchor logo-icon"></i>
+                    <h1>GESTECNAV</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html#accueil" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                    <li><a href="../index.html#services" data-fr="Services" data-en="Services">Services</a></li>
+                    <li><a href="../index.html#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="service-page">
+        <!-- Hero Section Améliorée -->
+        <div class="service-hero">
+            <div class="container">
+                <div class="hero-content-wrapper">
+                    <div class="hero-text">
+                        <a href="../index.html#services" class="back-btn" data-fr="Retour aux services" data-en="Back to services">
+                            <i class="fas fa-arrow-left"></i>
+                            <span data-fr="Retour aux services" data-en="Back to services">Retour aux services</span>
+                        </a>
+
+                        <div class="service-badge" data-fr="Expertise Avancée" data-en="Advanced Expertise">Expertise Avancée</div>
+                        
+                        <div class="service-icon-main">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        
+                        <h1 data-fr="Expertise Maritime" data-en="Maritime Expertise">Expertise Maritime</h1>
+                        <p class="hero-subtitle" data-fr="Expertises techniques et réglementaires conformes aux standards internationaux" data-en="Technical and regulatory expertise compliant with international standards">Expertises techniques et réglementaires conformes aux standards internationaux</p>
+                        
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <div class="stat-value" data-count="120">0</div>
+                                <div class="stat-label" data-fr="Expertises" data-en="Expertises">Expertises</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-value" data-count="34">0</div>
+                                <div class="stat-label" data-fr="Ans d'Expérience" data-en="Years Experience">Ans d'Expérience</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="stat-value" data-count="100">0</div>
+                                <div class="stat-label" data-fr="% Satisfaction" data-en="% Satisfaction">% Satisfaction</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-search"></i>
+                            <span data-fr="Investigation" data-en="Investigation">Investigation</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-file-contract"></i>
+                            <span data-fr="Rapports" data-en="Reports">Rapports</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-balance-scale"></i>
+                            <span data-fr="Assurance" data-en="Insurance">Assurance</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Expertise maritime" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service-details">
+            <div class="container">
+                <!-- Section Introduction -->
+                <div class="service-intro">
+                    <div class="intro-content">
+                        <h2 data-fr="Expertise Maritime Spécialisée" data-en="Specialized Maritime Expertise">Expertise Maritime Spécialisée</h2>
+                        <p data-fr="Notre équipe d'experts vous accompagne dans tous vos projets maritimes avec des conseils techniques avisés, intervenant sur l'ensemble de la chaîne de valeur maritime selon les référentiels internationaux." data-en="Our team of experts supports you in all your maritime projects with informed technical advice, operating across the entire maritime value chain according to international frameworks.">Notre équipe d'experts vous accompagne dans tous vos projets maritimes avec des conseils techniques avisés, intervenant sur l'ensemble de la chaîne de valeur maritime selon les référentiels internationaux.</p>
+                    </div>
+                </div>
+
+                <!-- Section Domaines d'Expertise -->
+                <div class="service-section">
+                    <div class="section-header">
+                        <h3 data-fr="Domaines d'Expertise" data-en="Areas of Expertise">Domaines d'Expertise</h3>
+                        <p data-fr="Une expertise complète couvrant tous les aspects de l'ingénierie maritime" data-en="Comprehensive expertise covering all aspects of maritime engineering">Une expertise complète couvrant tous les aspects de l'ingénierie maritime</p>
+                    </div>
+                    
+                    <div class="intervention-grid">
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <h4 data-fr="Expertises Techniques et Réglementaires" data-en="Technical and Regulatory Expertise">Expertises Techniques et Réglementaires</h4>
+                            <p data-fr="Expertises techniques et réglementaires en cas d'événements en mer ou à quai (avarie, sinistre, pollution, incendie, défaillance structurelle)" data-en="Technical and regulatory expertise for events at sea or in port (damage, casualty, pollution, fire, structural failure)">Expertises techniques et réglementaires en cas d'événements en mer ou à quai (avarie, sinistre, pollution, incendie, défaillance structurelle)</p>
+                            <ul>
+                                <li data-fr="Analyses post-incident" data-en="Post-incident analysis">Analyses post-incident</li>
+                                <li data-fr="Conformité réglementaire" data-en="Regulatory compliance">Conformité réglementaire</li>
+                                <li data-fr="Investigations détaillées" data-en="Detailed investigations">Investigations détaillées</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <h4 data-fr="Évaluation des Dommages" data-en="Damage Assessment">Évaluation des Dommages</h4>
+                            <p data-fr="Évaluation des dommages sur coques, machines, équipements de bord et cargaisons avec rapports détaillés" data-en="Damage assessment of hulls, machinery, onboard equipment and cargoes with detailed reports">Évaluation des dommages sur coques, machines, équipements de bord et cargaisons avec rapports détaillés</p>
+                            <ul>
+                                <li data-fr="Inspections techniques" data-en="Technical inspections">Inspections techniques</li>
+                                <li data-fr="Évaluations quantitatives" data-en="Quantitative assessments">Évaluations quantitatives</li>
+                                <li data-fr="Expertises cargo" data-en="Cargo expertise">Expertises cargo</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h4 data-fr="Rapports d'Expertise" data-en="Expert Reports">Rapports d'Expertise</h4>
+                            <p data-fr="Rédaction de rapports d'expertise conformes aux standards internationaux (Hull & Machinery Survey, Condition Survey, Cargo Damage Report)" data-en="Preparation of expert reports compliant with international standards (Hull & Machinery Survey, Condition Survey, Cargo Damage Report)">Rédaction de rapports d'expertise conformes aux standards internationaux (Hull & Machinery Survey, Condition Survey, Cargo Damage Report)</p>
+                            <ul>
+                                <li data-fr="Rapports détaillés" data-en="Detailed reports">Rapports détaillés</li>
+                                <li data-fr="Documentation technique" data-en="Technical documentation">Documentation technique</li>
+                                <li data-fr="Support juridique" data-en="Legal support">Support juridique</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-hands-helping"></i>
+                            </div>
+                            <h4 data-fr="Assistance aux Parties" data-en="Parties Assistance">Assistance aux Parties</h4>
+                            <p data-fr="Assistance aux armateurs, affréteurs, assureurs et autorités maritimes pendant les enquêtes et procédures" data-en="Assistance to shipowners, charterers, insurers and maritime authorities during investigations and procedures">Assistance aux armateurs, affréteurs, assureurs et autorités maritimes pendant les enquêtes et procédures</p>
+                            <ul>
+                                <li data-fr="Support technique" data-en="Technical support">Support technique</li>
+                                <li data-fr="Conseil réglementaire" data-en="Regulatory advice">Conseil réglementaire</li>
+                                <li data-fr="Médiation" data-en="Mediation">Médiation</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <h4 data-fr="Contrôle Post-Avarie" data-en="Post-Damage Control">Contrôle Post-Avarie</h4>
+                            <p data-fr="Contrôle post-avarie et recommandations techniques suivant les normes ISM, ISPS, MARPOL avec plans d'action correctifs" data-en="Post-damage control and technical recommendations following ISM, ISPS, MARPOL standards with corrective action plans">Contrôle post-avarie et recommandations techniques suivant les normes ISM, ISPS, MARPOL avec plans d'action correctifs</p>
+                            <ul>
+                                <li data-fr="Audits de conformité" data-en="Compliance audits">Audits de conformité</li>
+                                <li data-fr="Recommandations techniques" data-en="Technical recommendations">Recommandations techniques</li>
+                                <li data-fr="Plans correctifs" data-en="Corrective plans">Plans correctifs</li>
+                            </ul>
+                        </div>
+
+                        <div class="intervention-card">
+                            <div class="card-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <h4 data-fr="Audits Techniques" data-en="Technical Audits">Audits Techniques</h4>
+                            <p data-fr="Audits techniques et due diligence pour évaluations complètes et vérifications de conformité" data-en="Technical audits and due diligence for comprehensive assessments and compliance verification">Audits techniques et due diligence pour évaluations complètes et vérifications de conformité</p>
+                            <ul>
+                                <li data-fr="Audits systèmes" data-en="System audits">Audits systèmes</li>
+                                <li data-fr="Due diligence" data-en="Due diligence">Due diligence</li>
+                                <li data-fr="Évaluations risques" data-en="Risk assessments">Évaluations risques</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Processus -->
+                <div class="service-section process-section">
+                    <div class="section-header">
+                        <h3 data-fr="Notre Processus d'Expertise" data-en="Our Expertise Process">Notre Processus d'Expertise</h3>
+                        <p data-fr="Une méthodologie rigoureuse pour des expertises précises et fiables" data-en="A rigorous methodology for precise and reliable expertise">Une méthodologie rigoureuse pour des expertises précises et fiables</p>
+                    </div>
+                    
+                    <div class="process-timeline">
+                        <div class="process-step">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h4 data-fr="Analyse Initiale" data-en="Initial Analysis">Analyse Initiale</h4>
+                                <p data-fr="Analyse approfondie de la situation et collecte des preuves techniques et réglementaires" data-en="In-depth situation analysis and collection of technical and regulatory evidence">Analyse approfondie de la situation et collecte des preuves techniques et réglementaires</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h4 data-fr="Étude Technique" data-en="Technical Study">Étude Technique</h4>
+                                <p data-fr="Étude technique détaillée conforme aux standards internationaux et analyse des causes racines" data-en="Detailed technical study compliant with international standards and root cause analysis">Étude technique détaillée conforme aux standards internationaux et analyse des causes racines</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h4 data-fr="Rédaction de Rapports" data-en="Report Writing">Rédaction de Rapports</h4>
+                                <p data-fr="Rédaction de rapports d'expertise détaillés (Hull & Machinery, Condition Survey, etc.) avec conclusions techniques" data-en="Preparation of detailed expert reports (Hull & Machinery, Condition Survey, etc.) with technical conclusions">Rédaction de rapports d'expertise détaillés (Hull & Machinery, Condition Survey, etc.) avec conclusions techniques</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-file-contract"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="process-step">
+                            <div class="step-number">04</div>
+                            <div class="step-content">
+                                <h4 data-fr="Recommandations" data-en="Recommendations">Recommandations</h4>
+                                <p data-fr="Recommandations personnalisées et plans d'action correctifs avec assistance lors des procédures" data-en="Personalized recommendations and corrective action plans with assistance during procedures">Recommandations personnalisées et plans d'action correctifs avec assistance lors des procédures</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                        </div>
+
+                        <div class="process-step">
+                            <div class="step-number">05</div>
+                            <div class="step-content">
+                                <h4 data-fr="Suivi et Évaluation" data-en="Monitoring and Evaluation">Suivi et Évaluation</h4>
+                                <p data-fr="Suivi et évaluation des résultats avec optimisation continue des recommandations" data-en="Monitoring and evaluation of results with continuous optimization of recommendations">Suivi et évaluation des résultats avec optimisation continue des recommandations</p>
+                            </div>
+                            <div class="step-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Référentiels Techniques -->
+                <div class="service-section">
+                    <div class="section-header">
+                        <h3 data-fr="Référentiels Techniques" data-en="Technical Frameworks">Référentiels Techniques</h3>
+                        <p data-fr="Conformité aux standards internationaux les plus exigeants" data-en="Compliance with the most demanding international standards">Conformité aux standards internationaux les plus exigeants</p>
+                    </div>
+                    
+                    <div class="standards-grid">
+                        <div class="standard-card">
+                            <div class="standard-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h4 data-fr="Sociétés de Classification" data-en="Classification Societies">Sociétés de Classification</h4>
+                            <p data-fr="Standards des sociétés de classification (BV, DNV, RINA, ABS, Lloyd's Register)" data-en="Classification society standards (BV, DNV, RINA, ABS, Lloyd's Register)">Standards des sociétés de classification (BV, DNV, RINA, ABS, Lloyd's Register)</p>
+                        </div>
+                        
+                        <div class="standard-card">
+                            <div class="standard-icon">
+                                <i class="fas fa-gavel"></i>
+                            </div>
+                            <h4 data-fr="Conventions Internationales" data-en="International Conventions">Conventions Internationales</h4>
+                            <p data-fr="Conventions SOLAS, MARPOL, MLC 2006 et codes ISM/ISPS pour la sécurité et l'environnement" data-en="SOLAS, MARPOL, MLC 2006 conventions and ISM/ISPS codes for safety and environment">Conventions SOLAS, MARPOL, MLC 2006 et codes ISM/ISPS pour la sécurité et l'environnement</p>
+                        </div>
+                        
+                        <div class="standard-card">
+                            <div class="standard-icon">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                            <h4 data-fr="Assurance Maritime" data-en="Maritime Insurance">Assurance Maritime</h4>
+                            <p data-fr="Règlements internationaux d'assurance maritime et procédures d'indemnisation" data-en="International maritime insurance regulations and compensation procedures">Règlements internationaux d'assurance maritime et procédures d'indemnisation</p>
+                        </div>
+                        
+                        <div class="standard-card">
+                            <div class="standard-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 data-fr="Normes ISO" data-en="ISO Standards">Normes ISO</h4>
+                            <p data-fr="Normes ISO 31000 pour l'évaluation des risques et gestion de la qualité" data-en="ISO 31000 standards for risk assessment and quality management">Normes ISO 31000 pour l'évaluation des risques et gestion de la qualité</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Cas d'Intervention -->
+<div class="service-section cases-section">
+    <div class="section-header">
+        <h3 data-fr="Cas d'Intervention Réussis" data-en="Successful Intervention Cases">Cas d'Intervention Réussis</h3>
+        <p data-fr="Des expertises qui font référence dans le secteur maritime" data-en="Expertise that sets the standard in the maritime sector">Des expertises qui font référence dans le secteur maritime</p>
+    </div>
+    
+    <div class="cases-grid">
+        <div class="case-card">
+            <div class="case-header">
+                <div class="case-icon">
+                    <i class="fas fa-ship"></i>
+                </div>
+                <div class="case-title">
+                    <h4 data-fr="Sinistre Maritime" data-en="Maritime Casualty">Sinistre Maritime</h4>
+                    <span class="case-value">5M€</span>
+                </div>
+            </div>
+            <p data-fr="Expertise technique pour sinistre maritime de 5M€ avec analyse des causes et recommandations" data-en="Technical expertise for €5M maritime casualty with cause analysis and recommendations">Expertise technique pour sinistre maritime de 5M€ avec analyse des causes et recommandations</p>
+            <div class="case-tags">
+                <span class="tag" data-fr="Investigation" data-en="Investigation">Investigation</span>
+                <span class="tag" data-fr="Assurance" data-en="Insurance">Assurance</span>
+            </div>
+        </div>
+        
+        <div class="case-card">
+            <div class="case-header">
+                <div class="case-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <div class="case-title">
+                    <h4 data-fr="Collision" data-en="Collision">Collision</h4>
+                    <span class="case-value" data-fr="Évaluation" data-en="Assessment">Évaluation</span>
+                </div>
+            </div>
+            <p data-fr="Évaluation des dommages suite à collision pour assureurs avec rapports détaillés" data-en="Damage assessment following collision for insurers with detailed reports">Évaluation des dommages suite à collision pour assureurs avec rapports détaillés</p>
+            <div class="case-tags">
+                <span class="tag" data-fr="Dommages" data-en="Damage">Dommages</span>
+                <span class="tag" data-fr="Expertise" data-en="Expertise">Expertise</span>
+            </div>
+        </div>
+        
+        <div class="case-card">
+            <div class="case-header">
+                <div class="case-icon">
+                    <i class="fas fa-water"></i>
+                </div>
+                <div class="case-title">
+                    <h4 data-fr="Pollution MARPOL" data-en="MARPOL Pollution">Pollution MARPOL</h4>
+                    <span class="case-value" data-fr="Conformité" data-en="Compliance">Conformité</span>
+                </div>
+            </div>
+            <p data-fr="Expertise pollution MARPOL pour autorités portuaires avec vérification de conformité" data-en="MARPOL pollution expertise for port authorities with compliance verification">Expertise pollution MARPOL pour autorités portuaires avec vérification de conformité</p>
+            <div class="case-tags">
+                <span class="tag" data-fr="Environnement" data-en="Environment">Environnement</span>
+                <span class="tag" data-fr="Réglementation" data-en="Regulation">Réglementation</span>
+            </div>
+        </div>
+        
+        <div class="case-card">
+            <div class="case-header">
+                <div class="case-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="case-title">
+                    <h4 data-fr="Audit ISM/ISPS" data-en="ISM/ISPS Audit">Audit ISM/ISPS</h4>
+                    <span class="case-value" data-fr="Sécurité" data-en="Safety">Sécurité</span>
+                </div>
+            </div>
+            <p data-fr="Audit de conformité ISM/ISPS suite à incident de sécurité avec plan correctif" data-en="ISM/ISPS compliance audit following safety incident with corrective plan">Audit de conformité ISM/ISPS suite à incident de sécurité avec plan correctif</p>
+            <div class="case-tags">
+                <span class="tag" data-fr="Sécurité" data-en="Safety">Sécurité</span>
+                <span class="tag" data-fr="Audit" data-en="Audit">Audit</span>
+            </div>
+        </div>
+        
+        <div class="case-card">
+            <div class="case-header">
+                <div class="case-icon">
+                    <i class="fas fa-hard-hat"></i>
+                </div>
+                <div class="case-title">
+                    <h4 data-fr="Défaillance Structurelle" data-en="Structural Failure">Défaillance Structurelle</h4>
+                    <span class="case-value" data-fr="Analyse" data-en="Analysis">Analyse</span>
+                </div>
+            </div>
+            <p data-fr="Investigations techniques pour défaillances structurelles avec recommandations de renforcement" data-en="Technical investigations for structural failures with reinforcement recommendations">Investigations techniques pour défaillances structurelles avec recommandations de renforcement</p>
+            <div class="case-tags">
+                <span class="tag" data-fr="Structure" data-en="Structure">Structure</span>
+                <span class="tag" data-fr="Technique" data-en="Technical">Technique</span>
+            </div>
+        </div>
+        
+        <div class="case-card">
+            <div class="case-header">
+                <div class="case-icon">
+                    <i class="fas fa-fire"></i>
+                </div>
+                <div class="case-title">
+                    <h4 data-fr="Incendie" data-en="Fire">Incendie</h4>
+                    <span class="case-value" data-fr="Expertise" data-en="Expertise">Expertise</span>
+                </div>
+            </div>
+            <p data-fr="Expertise post-incendie avec analyse des causes et évaluation des dommages matériels" data-en="Post-fire expertise with cause analysis and material damage assessment">Expertise post-incendie avec analyse des causes et évaluation des dommages matériels</p>
+            <div class="case-tags">
+                <span class="tag" data-fr="Incendie" data-en="Fire">Incendie</span>
+                <span class="tag" data-fr="Enquête" data-en="Investigation">Enquête</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- Section Avantages -->
+                <div class="service-section benefits-section">
+                    <div class="section-header">
+                        <h3 data-fr="Avantages Clés" data-en="Key Benefits">Avantages Clés</h3>
+                        <p data-fr="Les bénéfices concrets de notre expertise maritime spécialisée" data-en="The concrete benefits of our specialized maritime expertise">Les bénéfices concrets de notre expertise maritime spécialisée</p>
+                    </div>
+                    
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4 data-fr="Rapidité d'Intervention" data-en="Rapid Intervention">Rapidité d'Intervention</h4>
+                            <p data-fr="Intervention sous 24h avec équipe d'experts mobilisable immédiatement" data-en="24-hour intervention with immediately available expert team">Intervention sous 24h avec équipe d'experts mobilisable immédiatement</p>
+                            <div class="benefit-value">24h</div>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h4 data-fr="Expertise Reconnue" data-en="Recognized Expertise">Expertise Reconnue</h4>
+                            <p data-fr="34 ans d'expérience et 120+ expertises réalisées avec succès dans le secteur" data-en="34 years of experience and 120+ successful expertises in the sector">34 ans d'expérience et 120+ expertises réalisées avec succès dans le secteur</p>
+                            <div class="benefit-value">34 ans</div>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 data-fr="Conformité Totale" data-en="Total Compliance">Conformité Totale</h4>
+                            <p data-fr="100% de conformité aux standards internationaux et reconnaissance par les autorités" data-en="100% compliance with international standards and recognition by authorities">100% de conformité aux standards internationaux et reconnaissance par les autorités</p>
+                            <div class="benefit-value">100%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section CTA -->
+                <div class="service-cta-section">
+                    <div class="cta-content">
+                        <h3 data-fr="Besoin d'une Expertise Maritime ?" data-en="Need Maritime Expertise?">Besoin d'une Expertise Maritime ?</h3>
+                        <p data-fr="Notre équipe d'experts est à votre disposition pour analyser votre situation et vous proposer les meilleures solutions techniques et réglementaires" data-en="Our team of experts is available to analyze your situation and propose the best technical and regulatory solutions">Notre équipe d'experts est à votre disposition pour analyser votre situation et vous proposer les meilleures solutions techniques et réglementaires</p>
+                        <div class="cta-buttons">
+                            <a href="../index.html#contact" class="btn btn-primary">
+                                <span data-fr="Consulter un Expert" data-en="Consult an Expert">Consulter un Expert</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="../index.html#services" class="btn btn-outline">
+                                <span data-fr="Autres Services" data-en="Other Services">Autres Services</span>
+                                <i class="fas fa-compass"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GESTECNAV SUARL</h3>
+                    <p data-fr="Société d'ingénierie maritime spécialisée dans la gestion technique, la conformité réglementaire et la transition énergétique des navires." data-en="Maritime engineering company specializing in technical management, regulatory compliance and ship energy transition.">Société d'ingénierie maritime spécialisée dans la gestion technique, la conformité réglementaire et la transition énergétique des navires.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=100071133485603" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/goddi-mohamed-ali-5285b531/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/gestecnav_corp" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 data-fr="Contact" data-en="Contact">Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 42 avenue Abdelaziz Thalbi, Tunis</p>
+                    <p><i class="fas fa-envelope"></i> gestecnav@yahoo.fr</p>
+                    <p><i class="fas fa-phone"></i> +216 97 728 909</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© GESTECNAV 2023 - <span data-fr="Tous droits réservés" data-en="All rights reserved">Tous droits réservés</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+</html>
